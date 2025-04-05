@@ -28,7 +28,7 @@
   printEnable = false;
 
   # Set Stylix Image
-  stylixImage = ../../wallpapers/rainnight.jpg;
+  stylixImage = ../../wallpapers/Rainnight.jpg;
 
   # Set Waybar
   # Includes alternates such as waybar-curved.nix & waybar-ddubs.nix
