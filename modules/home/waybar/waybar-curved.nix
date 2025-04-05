@@ -37,14 +37,13 @@ in
 
           "hyprland/workspaces" = {
             format = "{name}";
-            format-icons = {
-              default = " ";
+
               active = " ";
               urgent = " ";
             };
             on-scroll-up = "hyprctl dispatch workspace e+1";
             on-scroll-down = "hyprctl dispatch workspace e-1";
-          };
+          }; 
           "clock" = {
             format =
               if clock24h == true

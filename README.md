@@ -19,6 +19,7 @@ This includes the wallpaper, scripts, applications, config files, and more.
 </div>
 
 ### Please note:
+
 > **This project has a [Wiki](https://zaney.org/wiki/zaneyos-2.3/). Find out how
 > to use ZaneyOS here!** **ddubs has put a lot of effort into the
 > [FAQ](https://zaney.org/wiki/zaneyos-2.3/faq) so it should be accurate.
@@ -27,13 +28,14 @@ This includes the wallpaper, scripts, applications, config files, and more.
 
 #### 🍖 Requirements
 
-- You must be running on NixOS, version 23.11+. 
+- You must be running on NixOS, version 23.11+.
 - The `zaneyos` folder (this repo) is expected to be in your home directory.
-- You must have installed NIXOS using **GPT** parition with booting with **UEFI**.
+- You must have installed NIXOS using **GPT** parition with booting with
+  **UEFI**.
 - ** 500MB minimum /boot parititon required. **
 - Systemd-boot is what is supported.
 - For GRUB you will have to brave the internet for a how-to. ☺️
-- Manually editing your host specific files. 
+- Manually editing your host specific files.
 - The host is the specific computer your installing on.
 
 #### 🎹 Pipewire & Notification Menu Controls
@@ -46,12 +48,13 @@ This includes the wallpaper, scripts, applications, config files, and more.
 
 - Using Hyprland for increased elegance, functionality, and effeciency.
 - No massive Neovim project here. This is my simple, easy to understand, yet
-  incredible Neovim setup.  With language support already added in. 
+  incredible Neovim setup. With language support already added in.
 
 #### 🖥️ Multi Host & User Configuration
 
 - You can define separate settings for different host machines and users.
-- Easily specify extra packages for your users in the `modules/core/user.nix` file.
+- Easily specify extra packages for your users in the `modules/core/user.nix`
+  file.
 - Easy to understand file structure and simple, but encompassing, configuration.
 
 #### 👼 An Incredible Community Focused On Support
@@ -59,7 +62,7 @@ This includes the wallpaper, scripts, applications, config files, and more.
 - The entire idea of ZaneyOS is to make NixOS an approachable space.
 - NixOS is actually a great community that you will want to be a part of.
 - Many people who are patient and happy to spend their free time helping you are
-  running ZaneyOS. 
+  running ZaneyOS.
 - Feel free to reach out on the Discord for any help with anything.
 
 <div align="center">
@@ -88,12 +91,10 @@ Please do yourself a favor and
 
 - Don't forget to checkout the [FAQ](https://zaney.org/wiki/zaneyos-2.3/faq)
 
-## Installation: 
+## Installation:
 
 <details>
 <summary><strong> ⬇️ Install with script </strong></summary>
-
-
 
 ### 📜 Script:
 
@@ -183,12 +184,12 @@ called `fr` that will rebuild the flake and you do not have to be in the
 
 </details>
 
-
 ### Special Recognitions:
- Thank you for all your assistance
 
-- Jakookit  https://github.com/jakookit
-- Justaguylinux   https://github.com/drewgrif
-- Jerry Starke    https://github.com/JerrySM64
+Thank you for all your assistance
+
+- Jakookit https://github.com/jakookit
+- Justaguylinux https://github.com/drewgrif
+- Jerry Starke https://github.com/JerrySM64
 
 ## Hope you enjoy!
