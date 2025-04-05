@@ -1,10 +1,12 @@
 {
   # Git Configuration ( For Pulling Software Repos )
-  gitUsername = "Tyler Kelley";
-  gitEmail = "tylerzanekelley@gmail.com";
+  gitUsername = "Jonathan MacWilliams";
+  gitEmail = "jonathan.macwilliams@gmail.com";
 
   # Hyprland Settings
-  extraMonitorSettings = "";
+  extraMonitorSettings = "
+  monitor = eDP-1,1920x1080@60,auto,1
+    ";
 
   # Waybar Settings
   clock24h = false;
@@ -26,19 +28,19 @@
   printEnable = false;
 
   # Set Stylix Image
-  stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
+  stylixImage = ../../wallpapers/tubes.jpg;
 
   # Set Waybar
   # Includes alternates such as waybar-curved.nix & waybar-ddubs.nix
-  waybarChoice = ../../modules/home/waybar/waybar-simple.nix;
+  waybarChoice = ../../modules/home/waybar/waybar-ddubs.nix;
 
   # Set Animation style
   # Available options are:
   # animations-def.nix  (default)
   # animations-end4.nix (end-4 project)
   # animations-dynamic.nix (ml4w project)
-  animChoice = ../../modules/home/hyprland/animations-def.nix;
+  animChoice = ../../modules/home/hyprland/animations-end4.nix;
 
   # Enable Thunar GUI File Manager
-  thunarEnable = false;
+  thunarEnable = true;
 }
