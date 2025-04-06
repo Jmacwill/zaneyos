@@ -4,7 +4,12 @@
     discord
     nodejs
     obs-studio
-    #------ Office apps -------
+    #------ Office apps --------------
     libreoffice-fresh
+    #------ Cad and Engineering ------
+    freecad-wayland
+    #------ Fun and Games ------------
+    prismlauncher
+    #------ coding -------------------
   ];
 }
