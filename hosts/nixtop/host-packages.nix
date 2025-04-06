@@ -4,5 +4,7 @@
     discord
     nodejs
     obs-studio
+    #------ Office apps -------
+    libreoffice-fresh
   ];
 }

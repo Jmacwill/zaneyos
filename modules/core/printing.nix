@@ -5,7 +5,7 @@ in {
     printing = {
       enable = printEnable;
       drivers = [
-        # pkgs.hplipWithPlugin
+        #pkgs.hplipWithPlugin
       ];
     };
     avahi = {

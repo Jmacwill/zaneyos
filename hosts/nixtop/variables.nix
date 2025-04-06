@@ -25,7 +25,7 @@
   enableNFS = true;
 
   # Enable Printing Support
-  printEnable = false;
+  printEnable = true;
 
   # Set Stylix Image
   stylixImage = ../../wallpapers/Rainnight.jpg;
