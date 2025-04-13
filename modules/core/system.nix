@@ -1,4 +1,8 @@
-{host, ...}: let
+{
+  host,
+  pkgs,
+  ...
+}: let
   inherit (import ../../hosts/${host}/variables.nix) consoleKeyMap;
 in {
   nix = {
@@ -30,6 +34,13 @@ in {
     ZANEYOS_VERSION = "2.3";
     ZANEYOS = "true";
   };
+
+  # adds for being able to use platformio with vscode
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [avrdude];
+
+  #end of adds
+
   console.keyMap = "${consoleKeyMap}";
   system.stateVersion = "23.11"; # Do not change!
 }
