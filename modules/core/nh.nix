@@ -16,4 +16,10 @@
     nix-output-monitor
     nvd
   ];
+
+  #  pkgs.mkShell {
+  #  buildInputs = with pkgs; [
+  #    rnix-lsp
+  # ];
+  #}
 }
