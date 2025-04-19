@@ -15,7 +15,7 @@
     vscode
     arduino-ide
     thonny
-    direnv
+    #direnv
   ];
 
   #  pkgs.mkShell.buildInputs = with pkgs; [
