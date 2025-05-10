@@ -1,12 +1,14 @@
 { pkgs, ... }: {
   #set to default values
   programs.direnv = {
+    enable = true;
     package = pkgs.direnv;
     silent = false;
-    loadInNixShell = true;
-    direnvrcExtra = "";
+    #loadInNixShell = true;
+    #direnvrcExtra = "";
     nix-direnv = {
       enable = true;
       package = pkgs.nix-direnv;
     };
-  }
+  };
+}

@@ -12,10 +12,11 @@
     #------ Fun and Games ------------
     prismlauncher
     #------ coding -------------------
-    vscode
+    vscode.fhs
     arduino-ide
     thonny
-    #direnv
+    chezmoi
+    #virt-manager
   ];
 
   #  pkgs.mkShell.buildInputs = with pkgs; [
